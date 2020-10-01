@@ -1,4 +1,4 @@
-import logger as Log
+import src.logger as Log
 
 # print(REVERSED + "Hola" + RESET)
 # print(BOLD + "Hola")
