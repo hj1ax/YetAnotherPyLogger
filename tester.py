@@ -22,3 +22,5 @@ Log.enable_date_timestamp("dd/mm/yy") #starts printing text with date timestamp 
 Log.enable_time_timestamp("hh:mm:ss") #stars printing text with time timestamp  with the given format (default = "hh:mm:ss")
 Log.disable_colors()
 Log.enable_colors()
+
+#stuff to test: template method, strategy, claases/inheritance, composition, many little classes combined into one
