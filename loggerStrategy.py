@@ -1,0 +1,2 @@
+class LoggerStrategy:
+    pass

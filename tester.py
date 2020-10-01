@@ -23,4 +23,4 @@ Log.enable_time_timestamp("hh:mm:ss") #stars printing text with time timestamp  
 Log.disable_colors()
 Log.enable_colors()
 
-#stuff to test: template method, strategy, claases/inheritance, composition, many little classes combined into one
+#stuff to test: template method, strategy, classes/inheritance, composition, many little classes combined into one

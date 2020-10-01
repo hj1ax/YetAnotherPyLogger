@@ -43,3 +43,7 @@ def SUCCESS(text):  print(reset + Color.green  + Styling.bold + "[+] Success: " 
 def setCustomColor(number):   print(f"\u001b[38;5;{number}m")
 def setCustomBGColor(number): print(f"\u001b[48;5;{number}m")
 
+class CustomLogger: #aka context
+    pass
+
+
