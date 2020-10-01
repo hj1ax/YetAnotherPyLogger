@@ -1,4 +1,5 @@
 from logger import log
+from pathlib import Path
 
 # print(REVERSED + "Hola" + RESET)
 # print(BOLD + "Hola")
@@ -8,6 +9,14 @@ log.ERROR("An Error Occurred Unexpectedly")
 log.WARNING("Something strange is happening")
 log.SUCCESS("Everything is working fine")
 log.INFO("Something is working...")
+
+log.enable_save_to_txt(Path.cwd())
+
+log.INFO("Some text")
+
+log.set_log_timestamp_format("[%H:%M]")
+
+log.INFO("Other text")
 
 #print(RESET + BACK_BLUE + "Some Text")
 print(log.reset)
@@ -28,6 +37,7 @@ print(log.reset)
 # implementing your own logger
 
 from logger import log_context, custom_logger
+from pathlib import Path
 
 
 class MyLogger(custom_logger.MiniLog):
